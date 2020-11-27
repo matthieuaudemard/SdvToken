@@ -59,3 +59,15 @@ Compiling your contracts...
 > Compiled successfully using:
    - solc: 0.6.0+commit.26b70077.Emscripten.clang
 ```
+
+## Create front-End
+
+- create file `migrations/2_deploy_contracts.js`and add the following lines :
+
+```js
+var SdvToken = artifacts.require("SdvToken");
+
+module.exports = function(deployer) {
+  deployer.deploy(SdvToken);
+};
+```
