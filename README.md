@@ -5,7 +5,8 @@ See [OpenZeppelin tutorial](https://www.trufflesuite.com/tutorials/robust-smart-
 ## Requirements
 - [node.js](https://nodejs.org)
 - [truffle](https://www.trufflesuite.com/truffle) : `npm install truffle -g
-- [ganache](https://www.trufflesuite.com/ganache) launched
+- [ganache](https://www.trufflesuite.com/ganache)
+- [MetaMask](https://metamask.io/) browser plugin
 
 ## Unboxing the project
 
@@ -71,3 +72,11 @@ module.exports = function(deployer) {
   deployer.deploy(SdvToken);
 };
 ```
+
+
+## Ganache configuration
+
+- launch ganach app and click on "NEW WORKSPACE" (make sure ETHEREUM is selected)
+- enter a workspace name (i.e: sdv-workspace)
+- select tab "SERVER", copy the configuration below and then click on [save workspace]
+[](https://github.com/matthieuaudemard/SdvToken/blob/master/img/ganache-config-server.png)
