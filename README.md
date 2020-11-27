@@ -79,4 +79,4 @@ module.exports = function(deployer) {
 - launch ganach app and click on "NEW WORKSPACE" (make sure ETHEREUM is selected)
 - enter a workspace name (i.e: sdv-workspace)
 - select tab "SERVER", copy the configuration below and then click on [save workspace]
-[](https://github.com/matthieuaudemard/SdvToken/blob/master/img/ganache-config-server.png)
+![](https://raw.githubusercontent.com/matthieuaudemard/SdvToken/master/img/ganache-config-server.png)
